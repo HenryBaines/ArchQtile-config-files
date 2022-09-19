@@ -4,8 +4,9 @@
 - speedtest-cli				- speedtest
 - git					- git
 - yay (AUR helper)			- yay				https://wiki.archlinux.org/title/AUR_helpers
-- nano					- nano				https://wiki.archlinux.org/title/Nano
-- vim					- vim
+- nano (beginner friendly text editor)	- nano				https://wiki.archlinux.org/title/Nano
+- vim (more advanced text editor)	- vim
+- vi (git dependency text editor)	- vi
 - flatpak				- flatpak			https://wiki.archlinux.org/title/Flatpak
 - tlp (power management for laptop)	- tlp				https://wiki.archlinux.org/title/TLP
 - xorg-xrdb (X resources, not used)	- xrdb				https://wiki.archlinux.org/title/X_resources
