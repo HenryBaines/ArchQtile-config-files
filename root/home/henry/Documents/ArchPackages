@@ -1,0 +1,103 @@
+	CLI UTILITIES:
+
+- neofetch				- neofetch
+- speedtest-cli				- speedtest
+- git					- git
+- yay (AUR helper)			- yay				https://wiki.archlinux.org/title/AUR_helpers
+- nano					- nano				https://wiki.archlinux.org/title/Nano
+- vim					- vim
+- flatpak				- flatpak			https://wiki.archlinux.org/title/Flatpak
+- tlp (power management for laptop)	- tlp				https://wiki.archlinux.org/title/TLP
+- xorg-xrdb (X resources, not used)	- xrdb				https://wiki.archlinux.org/title/X_resources
+- htop (system monitor utility)		- htop
+
+
+	GUI UTILITIES:
+
+- rofi (system menu utility)		- rofi, rofi-theme-selector	https://wiki.archlinux.org/title/Rofi
+- pavucontrol (volume)			- pavucontrol
+- timeshift (AUR)			- timeshift-gtk (sudo)
+- arandr (xrandr gui utility, temporary)- arandr			https://wiki.archlinux.org/title/Xrandr
+- seahorse (keyring GUI interface)	- seahorse
+
+
+	ESSENTIAL COMPONENTS:		
+
+- alsa-utils (optional alsa components)	- alsamixer, amixer		https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture
+- networkmanager (network connectivity)	- nmcli (CLI), nmtui(GUI)	https://wiki.archlinux.org/title/NetworkManager
+- bluez (bluetooth connectivity)					https://wiki.archlinux.org/title/Bluetooth
+- bluez-utils				- bluetoothctl (CLI)
+- pulseaudio (works on top of alsa)	- pulseaudio
+- pulseaudio-alsa
+- pulseaudio-bluetooth
+- pulseaudio-jack (optional)						https://wiki.archlinux.org/title/PulseAudio
+- sof-firmware (recommended if problems with sound card drivers)	https://www.sofproject.org
+- intel-media-driver (video hw acceleration)				https://wiki.archlinux.org/title/Hardware_video_acceleration
+- xf86-video-intel (prevent screen tearing)				https://wiki.archlinux.org/title/intel_graphics
+
+	SYSTEM COMPONENTS:
+
+- linux-lts (stable but older kernel)					https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system	https://unix.stackexchange.com/questions/581455/how-to-add-entry-for-a-new-kernel-in-the-bootloader-config-file
+- polkit (priviledges management policy)				https://wiki.archlinux.org/title/Polkit
+- polkit-dumb-agent-git (AUR, authentication agent)	
+- gnome-keyring (some apps requirement)	- secret-tool, gnome-keyring-query
+- libsecret (apps can access keyring)	- lssecret
+- xf86-input-wacom (drivers for wacom tablet)				https://wiki.archlinux.org/title/Graphics_tablet
+
+
+	SECURITY:	 						https://christitus.com/linux-security-mistakes/
+
+- ufw (Uncomplicated FireWall)		- ufw (CLI)			https://wiki.archlinux.org/title/Uncomplicated_Firewall
+- fail2ban 				- fail2ban-client (CLI)		https://wiki.archlinux.org/title/Fail2ban
+
+
+	DEFAULT PROGRAMS:
+
+- vivaldi				- vivaldi-stable		https://wiki.archlinux.org/title/Vivaldi
+- alacritty				- alacritty			https://wiki.archlinux.org/title/Alacritty
+- vlc					- vlc				https://wiki.archlinux.org/title/VLC_media_player
+- nautilus				- nautilus			https://wiki.archlinux.org/title/GNOME/Files
+- gthumb (image viewer and editor)	- gthumb
+
+
+	MY PROGRAMS:
+
+- virt-manager								https://wiki.archlinux.org/title/Virt-Manager
+- quemu-desktop
+- libvirt (vm/qemu dependency)
+- edk2-ovmf (vm/qemu dependency)
+- dnsmasq (vm/qemu dependency)
+- iptables-nft (vm/qemu dependency)
+- spotify (flatpak)							https://wiki.archlinux.org/title/Spotify
+- obsidian (flatpak)
+- steam						 			https://wiki.archlinux.org/title/steam
+- discord								https://wiki.archlinux.org/title/Discord
+- mailspring (flatpak)
+
+
+	WINDOW MANAGER & DEPENDENCIES:
+
+- xf86-video-intel
+- xorg-server
+- xorg-xinit
+- xorg-apps
+- qtile									https://wiki.archlinux.org/title/Qtile		http://docs.qtile.org/en/stable/
+
+
+	GUI EXTENSIONS:
+
+- picom (compositor for basic animations)				https://wiki.archlinux.org/title/Picom
+- nitrogen (wallpaper selector)						https://wiki.archlinux.org/title/Nitrogen
+- unclutter (mouse utility that hides pointer)				https://wiki.archlinux.org/title/Unclutter
+- papirus-icon-theme 							https://wiki.archlinux.org/title/Icons
+- otf-font-awesome (add font-based icon support, see webpage for icons)	https://fontawesome.com/v5/cheatsheet/free/solid
+- ttf-font-awesome (same as above)
+
+
+	USEFUL EXTRA INFORMATION:
+
+For system maintenance see:						https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system
+
+Screen resolutions and aspect ratios:					https://www.epiphan.com/userguides/avio-4k/Content/UserGuides/VideoGrabber/UVC/3-Capture/fpsResolutions&Ratios.htm
+
+Colour codes in hex, ansi and rgb:					https://robotmoon.com/256-colors/		https://www.rapidtables.com/web/color/RGB_Color.html
