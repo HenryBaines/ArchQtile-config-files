@@ -10,7 +10,8 @@
 - flatpak				- flatpak			https://wiki.archlinux.org/title/Flatpak
 - tlp (power management for laptop)	- tlp				https://wiki.archlinux.org/title/TLP
 - xorg-xrdb (X resources, not used)	- xrdb				https://wiki.archlinux.org/title/X_resources
-- htop (system monitor utility)		- htop
+- htop (system monitor utility)		- htop 
+- unzip (tool to extract .zip files)	- unzip *filename*
 
 
 	GUI UTILITIES:
@@ -20,6 +21,7 @@
 - timeshift (AUR)			- timeshift-gtk (sudo)
 - arandr (xrandr gui utility, temporary)- arandr			https://wiki.archlinux.org/title/Xrandr
 - seahorse (keyring GUI interface)	- seahorse
+- blueman (graphical bluetooth manager) - blueman-manager (GUI)		https://wiki.archlinux.org/title/Blueman#Installation
 
 
 	ESSENTIAL COMPONENTS:		
